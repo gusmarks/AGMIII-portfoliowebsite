@@ -1,0 +1,68 @@
+
+html, body {
+	min-width: 100%;
+    	min-height: 100%;
+
+    	margin: 0px;
+    	padding: 0px;
+ 
+
+	background-image: url("pictures/background.jpg");
+	background-repeat: no-repeat; /* Do not repeat the image */
+ 	background-size: cover;
+	background-attachment: scroll;
+}
+nav{
+	background-color: #8ca6ff;
+	color: white;
+	display: block;
+}
+footer{
+	text-align: center;
+	background-color: #8ca6ff;
+	position: absolute sticky;
+	bottom: 0;
+   	overflow-x: hidden; 
+  	min-width: 100%;
+	height:80px; 
+    	width:100%;
+    	left:0;
+	padding: 10px;
+
+}
+#body{
+	position: relative;
+	width: 100%;
+	min-height: calc(100vh - 80px);
+	padding-bottom: 100px;    /* height of footer */
+    	margin: 0px;
+    	padding: 0px;
+    	overflow-x: hidden; /*musthave*/
+}
+
+
+.about-me{
+	color: black;
+	position: relative;	
+	align-content: center;
+	display: block;
+}
+
+.aboutmecontent{
+	position: relative;; 
+	color: black;
+	display: block;
+	text-align: center;
+	
+
+}
+.footercontent{
+	display: block;
+}
+.aboveContentIntro{
+	text-align: center;
+	align-content: center
+	font-family: Garamond;
+}
+
+
